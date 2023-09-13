@@ -1,0 +1,123 @@
+.container-p{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    margin: 0;
+    padding: 0 2rem;
+    transition: 0.5s;
+    margin-top: 2rem;
+}
+
+.imgage-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.main-img img{
+    width: 20rem;
+    margin: 0 0.5rem;
+    transition: .5s;
+}
+
+.main-img img:hover{
+    transform: scale(1.04,1.04);
+    box-shadow: 0 0 5px #ccc;
+}
+.sub-img{
+    margin-top: 2rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-img img:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 0 10px 0 #6d6d6d;
+}
+.sub-img img{
+    display: block;
+    width: 7rem;
+    transition: 0.4s;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+}
+.product-name{
+    font-size: 2rem;
+    text-align: start;
+    word-wrap: break-word;
+}
+.divider{
+    height: 1px;
+    background-color: black;
+    margin: 1rem 0;
+}
+.price-container h3{
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.price-info{
+    font-size: 1.4rem;
+    display: flex;
+    vertical-align: center;
+    align-content: center;
+    justify-content: flex-start;
+    font-weight: 100;
+    margin-left: 10px;
+}
+.ecom-icon{
+    /* height: 20px; */
+    width: 6rem;
+    height: 2.5rem;
+    margin: auto 10px;
+}
+
+.price-table{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+    padding: 10px;
+    margin: 1rem;
+}
+.price-table div{
+    text-align: center;
+}
+.price-table div a{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+}
+.price-table div a:hover{
+    text-decoration: underline;
+}
+.price-table div h4{
+    font-weight: 300;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.price-table div p{
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.product-description h2{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.product-description p{
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin-left: 10px;
+
+}
